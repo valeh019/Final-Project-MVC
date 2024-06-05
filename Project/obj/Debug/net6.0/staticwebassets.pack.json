@@ -1,0 +1,89 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\vbankASP.NET\\wwwroot\\css\\about.css",
+      "PackagePath": "staticwebassets\\css\\about.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\vbankASP.NET\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\vbankASP.NET\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\vbankASP.NET\\wwwroot\\css\\service.css",
+      "PackagePath": "staticwebassets\\css\\service.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\vbankASP.NET\\wwwroot\\images\\Visa-Logo-PNG-Image.png",
+      "PackagePath": "staticwebassets\\images\\Visa-Logo-PNG-Image.png"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\vbankASP.NET\\wwwroot\\images\\chip.png",
+      "PackagePath": "staticwebassets\\images\\chip.png"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\vbankASP.NET\\wwwroot\\images\\completed.png",
+      "PackagePath": "staticwebassets\\images\\completed.png"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\vbankASP.NET\\wwwroot\\images\\insta 2.webp",
+      "PackagePath": "staticwebassets\\images\\insta 2.webp"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\vbankASP.NET\\wwwroot\\images\\linkend.webp",
+      "PackagePath": "staticwebassets\\images\\linkend.webp"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\vbankASP.NET\\wwwroot\\images\\profile.jpg",
+      "PackagePath": "staticwebassets\\images\\profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\vbankASP.NET\\wwwroot\\images\\quick.webp",
+      "PackagePath": "staticwebassets\\images\\quick.webp"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\vbankASP.NET\\wwwroot\\images\\relax.webp",
+      "PackagePath": "staticwebassets\\images\\relax.webp"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\vbankASP.NET\\wwwroot\\images\\secure.png",
+      "PackagePath": "staticwebassets\\images\\secure.png"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\vbankASP.NET\\wwwroot\\images\\securee.png",
+      "PackagePath": "staticwebassets\\images\\securee.png"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\vbankASP.NET\\wwwroot\\images\\security.jpg",
+      "PackagePath": "staticwebassets\\images\\security.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\vbankASP.NET\\wwwroot\\images\\v.webp",
+      "PackagePath": "staticwebassets\\images\\v.webp"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\vbankASP.NET\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.vbankASP.NET.props",
+      "PackagePath": "build\\vbankASP.NET.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.vbankASP.NET.props",
+      "PackagePath": "buildMultiTargeting\\vbankASP.NET.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.vbankASP.NET.props",
+      "PackagePath": "buildTransitive\\vbankASP.NET.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.vbankASP.NET.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

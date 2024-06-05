@@ -1,0 +1,268 @@
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+.center {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 80px;
+}
+
+.animated-text {
+    animation: moveText 2s infinite alternate;
+}
+
+.animated-text {
+    animation: moveText 2s forwards;
+}
+
+@keyframes moveText {
+    from {
+        transform: translateX(600px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+body {
+    background-color: #000000;
+    :root {
+        font-size: 24px;
+    }
+    body {
+        background: #1488cc;
+        background: linear-gradient(to left, #283593, #1976d2);
+        height: 100vh;
+        font-family: "Josefin Sans", sans-serif;
+    }
+
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.circles {
+    position: absolute;
+    height: 270px;
+    width: 450px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle-1 {
+    height: 180px;
+    width: 180px;
+    top: -50px;
+    left: -60px;
+}
+
+.circle-2 {
+    height: 200px;
+    width: 200px;
+    bottom: -90px;
+    right: -90px;
+    opacity: 0.8;
+}
+
+.card-group {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card {
+    position: relative;
+    height: 270px;
+    width: 450px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.logo img,
+.chip img,
+.number,
+.name,
+.from,
+.to,
+.ring {
+    position: absolute;
+}
+
+.logo img {
+    top: 35px;
+    right: 40px;
+    width: 80px;
+    height: auto;
+    opacity: 0.8;
+}
+
+.chip img {
+    top: 120px;
+    left: 40px;
+    width: 50px;
+    height: auto;
+    opacity: 0.8;
+}
+
+.number,
+.name,
+.from,
+.to {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.6);
+}
+
+.number {
+    left: 40px;
+    bottom: 65px;
+    font-family: "Nunito", sans-serif;
+}
+
+.name {
+    font-size: 0.5rem;
+    left: 40px;
+    bottom: 35px;
+}
+
+.from {
+    font-size: 0.5rem;
+    bottom: 35px;
+    right: 110px;
+}
+
+.to {
+    font-size: 0.5rem;
+    bottom: 35px;
+    right: 40px;
+}
+
+.ring {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background: transparent;
+    border: 50px solid rgba(255, 255, 255, 0.1);
+    bottom: -250px;
+    right: -250px;
+    box-sizing: border-box;
+}
+
+.ring::after {
+    content: "";
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    background: transparent;
+    border: 30px solid rgba(255, 255, 255, 0.1);
+    bottom: -80px;
+    right: -110px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: bottom;
+    right: 20px;
+}
+
+header {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(273deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 58%);
+    color: #fff;
+    padding-top: 20px;
+    min-height: 70px;
+}
+
+header h1 {
+    float: left;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    width: 60px;
+    margin: 0%;
+    text-decoration: none;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#footerLinkContainer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+#footerLinkContainer a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+footer {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(273deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 58%);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - VBank</title>
+    <link rel="stylesheet" href="~/css/home.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="container">
+            <h1 class="animated-text">VBANK</h1>
+            <nav>
+                <ul>
+                    <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a asp-controller="Home" asp-action="About">About us</a></li>
+                    <li><a asp-controller="Home" asp-action="Services">Services</a></li>
+                    <li><a asp-controller="Home" asp-action="Login">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--Glassmorphism-->
+    <div class="circles">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+    </div>
+    <div class="card-group">
+        <div class="card">
+            <div class="logo"><img src="~/images/Visa-Logo-PNG-Image.png" alt="Visa"></div>
+            <div class="chip"><img src="~/images/chip.png" alt="chip"></div>
+            <div class="number">1234 5678 9012 3456</div>
+            <div class="name">VBANK</div>
+            <div class="from">10/23</div>
+            <div class="to">06/27</div>
+            <div class="ring"></div>
+        </div>
+    </div>
+    <!--Welcome-->
+    <div class="container">
+        <h2 id="movingText" class="center">Get free card now!</h2>
+    </div>
+    <!--FOOTER-->
+    <footer>
+        <div class="container">
+            <p>VBANK &copy; 2024</p>
+        </div>
+        <div id="footerLinkContainer">
+            <a href="https://github.com/valeh019">Powered by</a>
+        </div>
+    </footer>
+    <script src="~/js/Homescript.js"></script>
+</body>
+</html>

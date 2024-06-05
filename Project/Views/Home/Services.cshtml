@@ -1,0 +1,105 @@
+﻿
+
+
+@{
+    ViewData["Title"] = "Services";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - VBank</title>
+    <link rel="stylesheet" href="~/css/service.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap">
+</head>
+<body>
+    <!--HEADER-->
+    <header>   
+        <div class="container">
+            <div class="container">
+                <h1 class="animated-text">VBANK</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a asp-controller="Home" asp-action="About">About us</a></li>
+                    <li><a asp-controller="Home" asp-action="Services">Services</a></li>
+                    <li><a asp-controller="Home" asp-action="Login">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--BODY-->
+    <main class="color">
+        <div class="container">
+            <h1 class="section-heading">Our Services</h1>
+            <div class="services-cards">
+                <div class="services-card">
+                    <i class="fas fa-bank"></i>
+                    <h2>Affordable Loan</h2>
+                    <p>Loan offers suitable for everyone!
+                        Suitable loan conditions for Doctors, Teachers, Engineers, Students and so on!
+                    </p>
+                </div>
+                <div class="services-card">
+                    <i class="fas fa-motorcycle"></i>
+                    <h2>Fast delivery</h2>
+                    <p>The fastest delivery to the address when ordering a card!</p>
+                </div>
+                <div class="services-card">
+                    <i class="fas fa-phone"></i>
+                    <h2>24/7 Customer Service</h2>
+                    <p>Have a question, objection or suggestion?
+                        Benefit from 24/7 active customer service!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="comments-section">
+            <h2>Comments</h2>
+            <div class="reviews-container">
+                <div class="review-card">
+                    <img src="~/images/profile.jpg" alt="User 1" class="review-user-img">
+                    <h4>Ali Məmmədov</h4>
+                    <p class="review-date">15 May 2024</p>
+                    <p class="review-content">Bankınızın xidmətləri çox yaxşıdır, mən çox məmnunam!</p>
+                </div>
+                <div class="review-card">
+                    <img src="~/images/profile.jpg" alt="User 2" class="review-user-img">
+                    <h4>Aynurə Əliyeva</h4>
+                    <p class="review-date">10 May 2024</p>
+                    <p class="review-content">Müştəri xidməti çox sürətlidir və hər zaman yardıma hazırdırlar.</p>
+                </div>
+                <div class="review-card">
+                    <img src="~/images/profile.jpg" alt="User 3" class="review-user-img">
+                    <h4>Elçin Hüseynov</h4>
+                    <p class="review-date">5 May 2024</p>
+                    <p class="review-content">Sürətli çatdırılma ilə vaxt itirmədən yeni kartıma sahib oldum!</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-social">
+                <h3>Sosial Media</h3>
+                <a href="https://www.linkedin.com/in/valeh-qasimov-95928a265/"><img src="~/images/linkend.webp" alt="LinkedIn" class="social-icon"></a>
+                <a href="https://www.instagram.com/valehh019/"><img src="~/images/insta 2.webp" alt="Instagram" class="social-icon"></a>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p>Phone: +994 77 803 87 17</p>
+                <p>Email: valehqasimov367@gmail.com</p>
+                <p>Address: Bakı şəhəri, 28 may</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 VBANK. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

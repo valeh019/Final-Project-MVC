@@ -1,0 +1,105 @@
+﻿
+@{
+    ViewData["Title"] = "About Us";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - VBank</title>
+    <link rel="stylesheet" href="~/css/about.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="container">
+            <h1 class="animated-text">VBANK</h1>
+            <nav>
+                <ul>
+                    <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a asp-controller="Home" asp-action="About">About us</a></li>
+                    <li><a asp-controller="Home" asp-action="Services">Services</a></li>
+                    <li><a asp-controller="Home" asp-action="Login">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--BODY-->
+    <main>
+      <section class="glass">
+        <div class="dashboard">
+          <div>
+            <a href="index.html">
+              <img src="~/images/v.webp" alt="VBANK Logo" width="130px" style="border-radius: 50%; margin-top: 25px; margin-bottom: 10px;" />
+              <h3>VBANK</h3>
+              <p>Mobile Bank</p>
+            </a>
+          </div>
+          <div class="links">
+            <a href="Təhlükəsiz.html">
+              <div class="link">
+                <img src="~/images/security.jpg" width="40px" alt="Təhlükəsiz" />
+                <h2>Təhlükəsiz</h2>
+              </div>
+            </a>
+            <a href="Rahat.html">
+              <div class="link">
+                <img src="~/images/relax.webp" width="40px" alt="Rahat" />
+                <h2>Rahat</h2>
+              </div>
+            </a>
+            <a href="Sürətli.html">
+              <div class="link">
+                <img src="~/images/quick.webp" width="37px" alt="Sürətli" />
+                <h2>Sürətli</h2>
+              </div>
+            </a>
+            <a href="Asan.html">
+              <div class="link">
+                <img src="~/images/completed.png" width="37px" alt="Asan" />
+                <h2>Asan</h2>
+              </div>
+            </a>
+          </div>
+          <div class="social">
+            <a href="https://www.linkedin.com/in/valeh-qasimov-95928a265/"><img src="~/images/linkend.webp" alt="LinkedIn" width="20px" /></a>
+            <a href="https://www.instagram.com/valehh019/"><img src="~/images/insta 2.webp" alt="Instagram" width="20px" /></a>
+          </div>
+        </div>
+        <div class="carditems">
+          <h1>About VBANK ✔️</h1>
+          <br>
+          <p>VBANK 2024-cü ildə, istifadəçilərə evdən çıxmadan bank işlərini (Kredit götürülməsi/ödənişi, pul köçürmələri və s.) rahat, təhlükəsiz və sürətli həll etmək məqsədilə qurulmuş Bankdır.</p>
+          <br>
+          <p>"VBANK" mobile/only prinsipinə uyğun yaradılmışdır. Əlbəttə ki heç bir filialımız yoxdur. Bununla belə siz sadəcə smartfon vasitəsiylə sərfəli kredit təkliflərindən yararlana bilər, komissiyasız pul köçürmələri edə bilər, kartla alış-veriş zamanı "Cashback" almaq və ƏDV geri alma kimi bir çox fürsətlərdən yararlana bilərsiniz.</p>
+          <br>
+          <p>VBANK kartı əldə etmək üçün sadəcə VBANK vebsaytına daxil olaraq qeydiyyatdan keçməyiniz bəs edir. Daha sonra qeyd etdiyiniz ünvana VBANK əməkdaşları tərəfindən həftə içi iş saatları ərzində pulsuz şəkildə çatdırlır.</p>
+        </div>
+      </section>
+    </main>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <!--FOOTER-->
+    <footer class="footer">
+      <div class="footer-container">
+          <div class="footer-social">
+              <h3>Sosial Media</h3>
+                <a href="https://www.linkedin.com/in/valeh-qasimov-95928a265/"><img src="~/images/linkend.webp" alt="LinkedIn" class="social-icon"></a>
+              <a href="https://www.instagram.com/valehh019/"><img src="~/images/insta 2.webp" alt="Instagram" class="social-icon"></a>
+          </div>
+          <div class="footer-contact">
+              <h3>Contact</h3>
+              <p>Phone: +994 77 803 87 17</p>
+              <p>Email: valehqasimov367@gmail.com</p>
+              <p>Address: Bakı şəhəri, 28</p>
+          </div>
+      </div>
+      <div class="footer-bottom">
+          <p>&copy; 2024 VBANK. All rights reserved.</p>
+      </div>
+    </footer>
+</body>
+</html>

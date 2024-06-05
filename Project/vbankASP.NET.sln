@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vbankASP.NET", "vbankASP.NET.csproj", "{FACD2C80-CB50-4D82-BB6F-ADFC828EF4FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FACD2C80-CB50-4D82-BB6F-ADFC828EF4FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FACD2C80-CB50-4D82-BB6F-ADFC828EF4FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FACD2C80-CB50-4D82-BB6F-ADFC828EF4FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FACD2C80-CB50-4D82-BB6F-ADFC828EF4FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14E21320-04D6-4DE4-8AED-81B322673C99}
+	EndGlobalSection
+EndGlobal
